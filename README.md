@@ -1,2 +1,2 @@
 # jasmine-nguyen
-This is Jasmine Nguyen's Midterm Assign for INF 133.
+This is Jasmine Nguyen's Midterm Assignment for INF 133.
