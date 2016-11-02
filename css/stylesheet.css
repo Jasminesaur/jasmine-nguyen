@@ -18,6 +18,11 @@ body{
 	color: #FFFFFF;
 }
 
+@font-face{
+	font-family: Freestyle Script;
+	src: url('fonts\FREESCPT.TTF');
+}
+
 img{
 	height:510px;
 	width:660px;
@@ -34,7 +39,7 @@ img{
 	padding: 0px;
 	text-align: center;
 	background-color: #353532;
-	font-family: Freestyle Script;
+	font-family: 'Freestyle Script';
 	font-size: 80px;
 }
 
