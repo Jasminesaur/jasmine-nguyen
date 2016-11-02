@@ -20,7 +20,7 @@ body{
 
 @font-face{
 	font-family: Freestyle Script;
-	src: url('fonts\FREESCPT.TTF');
+	src: url(../fonts/FREESCPT.TTF);
 }
 
 img{
@@ -175,6 +175,7 @@ img {
 	font-size: 10px;
 	font-family: Georgia;
 	color: #FFFFFF;
+	
 }
 
 #fragment-3{
