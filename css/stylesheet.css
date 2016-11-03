@@ -146,7 +146,32 @@ img {
 	font-family: Georgia;
 	
 }
-
+#tabs { 
+    background: transparent; 
+    border: none; 
+} 
+#tabs .ui-widget-header { 
+    background: transparent; 
+    border: none; 
+    border-bottom: 2px solid #edce23; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px; 
+} 
+#tabs .ui-tabs-nav .ui-state-default { 
+    background: transparent; 
+    border: none; 
+} 
+#tabs .ui-tabs-nav .ui-state-active { 
+    background: transparent url(../img/uiTabsArrow2.png) no-repeat bottom center; 
+    border: none; 
+} 
+#tabs .ui-tabs-nav .ui-state-default a { 
+    color: #FFFFFF; 
+} 
+#tabs .ui-tabs-nav .ui-state-active a { 
+    color: #edce23; 
+}
 
 .ui-tabs .ui-tabs-nav
 {
