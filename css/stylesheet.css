@@ -28,6 +28,17 @@ img{
 	width:660px;
 }
 
+#toggle {
+    font-size: 24px;
+    font-family: Georgia;
+}
+		
+#h1{
+	font-weight: normal;
+	font-size: 16px;
+	font-family: Georgia;
+}
+
 #pagewrap{
 	width: 660px;
 	margin: 0 auto;
@@ -48,6 +59,14 @@ img{
 	margin: 0px auto;
 }
 
+a:link{
+	color: #edce23;
+}
+
+a:visited{
+	color: #edce23;
+}
+
 #nav{
 	font-family: Georgia;
 	font-size: 12px;
@@ -61,6 +80,7 @@ img{
 	list-style: none;
 	background-color: #353532;
 }
+
 .nav li {
 	font-family: Georgia;
 	font-size: 12px;
@@ -86,13 +106,9 @@ img{
 		width: 120px;
 		border-bottom: none;
 		font-size: 12px;
-  }
-
-  .nav li {
 		display: inline-block;
 		margin-right: -4px;
   }
-
 }
 
 @media screen and (max-width: 980px) {
@@ -144,31 +160,34 @@ img {
 	
 	font-size: 10px;
 	font-family: Georgia;
-	
 }
+
 #tabs { 
     background: transparent; 
     border: none; 
 } 
+
 #tabs .ui-widget-header { 
     background: transparent; 
     border: none; 
     border-bottom: 2px solid #edce23; 
-    -moz-border-radius: 0px; 
-    -webkit-border-radius: 0px; 
     border-radius: 0px; 
 } 
+
 #tabs .ui-tabs-nav .ui-state-default { 
     background: transparent; 
     border: none; 
 } 
+
 #tabs .ui-tabs-nav .ui-state-active { 
     background: transparent url(../img/uiTabsArrow2.png) no-repeat bottom center; 
     border: none; 
 } 
+
 #tabs .ui-tabs-nav .ui-state-default a { 
     color: #FFFFFF; 
 } 
+
 #tabs .ui-tabs-nav .ui-state-active a { 
     color: #edce23; 
 }
@@ -184,7 +203,14 @@ img {
 	font-size: 10px;
 	font-family: Georgia;
 	color: #FFFFFF;
-	
+}
+
+.spanstyle {
+	color: #edce23;
+}
+
+.spanpadding{
+	padding-left: 10px;
 }
 
 #fragment-3{
@@ -200,4 +226,13 @@ img {
 
 #footer{
 	clear: both;
+}
+
+.footerstyle{
+	padding-top: 10px; 
+	bottom:0; 
+	height:60px; 
+	border-top-width:1px; 
+	border-top-style: solid; 
+	border-top-color:#edce23;
 }
