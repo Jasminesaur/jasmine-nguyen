@@ -19,8 +19,8 @@ body{
 }
 
 @font-face{
-	font-family: Sushi;
-	src: url(../fonts/DK-Sushi-Bar.ttf);
+	font-family: Brush;
+	src: url(../fonts/Brushstrike.ttf);
 }
 
 
@@ -51,7 +51,7 @@ img{
 	padding: 0px;
 	text-align: center;
 	background-color: #353532;
-	font-family: 'Sushi';
+	font-family: 'Brush';
 	font-size: 80px;
 }
 
