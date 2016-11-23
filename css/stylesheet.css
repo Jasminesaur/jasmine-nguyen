@@ -21,7 +21,9 @@ body{
 @font-face{
 	font-family: Permanent Marker;
 	src: url(../fonts/PermanentMarker.ttf);
-	
+}
+
+@font-face{
 	font-family: Economica;
 	src: url(../fonts/Economica-Regular.ttf);
 	
