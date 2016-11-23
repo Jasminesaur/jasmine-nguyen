@@ -13,7 +13,7 @@ body{
 	padding: 0px;
 	text-align: center;
 	background-color: #353532;
-	font-size: 15px;
+	font-size: 12px;
 	font-family: 'Economica';
 	color: #FFFFFF;
 }
@@ -35,13 +35,13 @@ img{
 }
 
 #toggle {
-    font-size: 15px;
+    font-size: 24px;
     font-family: 'Economica';
 }
 		
 #h1{
 	font-weight: normal;
-	font-size: 17px;
+	font-size: 16px;
 	font-family: 'Economica';
 }
 
@@ -75,7 +75,7 @@ a:visited{
 
 #nav{
 	font-family: 'Economica';
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .nav ul {
@@ -89,7 +89,7 @@ a:visited{
 
 .nav li {
 	font-family: 'Economica';
-	font-size: 18px;
+	font-size: 15px;
 	color: #FFFFFF;
 }
 
@@ -111,7 +111,7 @@ a:visited{
   .nav li {
 		width: 120px;
 		border-bottom: none;
-		font-size: 17px;
+		font-size: 13px;
 		display: inline-block;
 		margin-right: -4px;
   }
@@ -163,7 +163,7 @@ img {
 
 #tabs a{
 	
-	font-size: 16px;
+	font-size: 13px;
 	font-family: 'Economica';
 }
 
@@ -198,14 +198,14 @@ img {
 }
 
 #fragment-1{
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'Economica';
 	color: #FFFFFF;
 }
 
 #fragment-2{
 	padding-top: 30px;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'Economica';
 	color: #FFFFFF;
 }
@@ -224,7 +224,7 @@ img {
 	border: 0px;
 	text-align: left;
 	list-style-type: decimal;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'Economica';
 	color: #FFFFFF;
 }
