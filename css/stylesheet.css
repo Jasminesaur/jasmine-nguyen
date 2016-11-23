@@ -13,21 +13,16 @@ body{
 	padding: 0px;
 	text-align: center;
 	background-color: #353532;
-	font-size: 15px;
-	font-family: 'Economica';
+	font-size: 11.5px;
+	font-family: Georgia;
 	color: #FFFFFF;
 }
 
 @font-face{
-	font-family: Reliable;
-	src: url(../fonts/Reliable.otf);
+	font-family: Sushi;
+	src: url(../fonts/Dk-Sushi-Bar.ttf);
 }
 
-@font-face{
-	font-family: Economica;
-	src: url(../fonts/Economica-Regular.ttf);
-	
-}
 
 img{
 	height:510px;
@@ -36,13 +31,13 @@ img{
 
 #toggle {
     font-size: 24px;
-    font-family: 'Economica';
+    font-family: Georgia;
 }
 		
 #h1{
 	font-weight: normal;
 	font-size: 16px;
-	font-family: 'Economica';
+	font-family: Georgia;
 }
 
 #pagewrap{
@@ -56,7 +51,7 @@ img{
 	padding: 0px;
 	text-align: center;
 	background-color: #353532;
-	font-family: 'Reliable';
+	font-family: 'Sushi';
 	font-size: 80px;
 }
 
@@ -74,8 +69,8 @@ a:visited{
 }
 
 #nav{
-	font-family: 'Economica';
-	font-size: 17px;
+	font-family: Georgia;
+	font-size: 13px;
 }
 
 .nav ul {
@@ -88,8 +83,8 @@ a:visited{
 }
 
 .nav li {
-	font-family: 'Economica';
-	font-size: 17px;
+	font-family: Georgia;
+	font-size: 13px;
 	color: #FFFFFF;
 }
 
@@ -163,8 +158,8 @@ img {
 
 #tabs a{
 	
-	font-size: 13px;
-	font-family: 'Economica';
+	font-size: 11.5px;
+	font-family: Georgia;
 }
 
 #tabs { 
@@ -198,15 +193,15 @@ img {
 }
 
 #fragment-1{
-	font-size: 15px;
-	font-family: 'Economica';
+	font-size: 11.5px;
+	font-family: Georgia;
 	color: #FFFFFF;
 }
 
 #fragment-2{
 	padding-top: 30px;
-	font-size: 15px;
-	font-family: 'Economica';
+	font-size: 11.5px;
+	font-family: Georgia;
 	color: #FFFFFF;
 }
 
@@ -224,8 +219,8 @@ img {
 	border: 0px;
 	text-align: left;
 	list-style-type: decimal;
-	font-size: 15px;
-	font-family: 'Economica';
+	font-size: 11.5px;
+	font-family: Georgia;
 	color: #FFFFFF;
 }
 
