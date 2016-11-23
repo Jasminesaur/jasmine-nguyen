@@ -230,9 +230,14 @@ img {
 	list-style-type: decimal;
 	font-size: 16px;
 	font-family: 'Ec';
-	color: #FFFFFF;
 }
 
+#fragment-3 li{
+	color: #edce23;
+}
+#fragment-3 li span{
+	color: #FFFFFF;
+}
 #footer{
 	clear: both;
 }
