@@ -14,7 +14,7 @@ body{
 	text-align: center;
 	background-color: #353532;
 	font-size: 11px;
-	font-family: Georgia;
+	font-family: 'Economica';
 	color: #FFFFFF;
 }
 
@@ -36,13 +36,13 @@ img{
 
 #toggle {
     font-size: 24px;
-    font-family: Georgia;
+    font-family: 'Economica';
 }
 		
 #h1{
 	font-weight: normal;
 	font-size: 16px;
-	font-family: Georgia;
+	font-family: 'Economica';
 }
 
 #pagewrap{
@@ -57,7 +57,7 @@ img{
 	text-align: center;
 	background-color: #353532;
 	font-family: 'Kristi';
-	font-size: 70px;
+	font-size: 80px;
 }
 
 #container {
@@ -164,7 +164,7 @@ img {
 #tabs a{
 	
 	font-size: 11px;
-	font-family: Georgia;
+	font-family: 'Economica';
 }
 
 #tabs { 
@@ -199,14 +199,14 @@ img {
 
 #fragment-1{
 	font-size: 11px;
-	font-family: Georgia;
+	font-family: 'Economica';
 	color: #FFFFFF;
 }
 
 #fragment-2{
 	padding-top: 30px;
 	font-size: 11px;
-	font-family: Georgia;
+	font-family: 'Economica';
 	color: #FFFFFF;
 }
 
@@ -225,7 +225,7 @@ img {
 	text-align: left;
 	list-style-type: decimal;
 	font-size: 11px;
-	font-family: Georgia;
+	font-family: 'Economica';
 	color: #FFFFFF;
 }
 
