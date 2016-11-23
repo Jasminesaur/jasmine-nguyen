@@ -13,14 +13,14 @@ body{
 	padding: 0px;
 	text-align: center;
 	background-color: #353532;
-	font-size: 14px;
+	font-size: 15px;
 	font-family: 'Economica';
 	color: #FFFFFF;
 }
 
 @font-face{
-	font-family: Tail;
-	src: url(../fonts/DK_Kitsune_Tail.ttf);
+	font-family: Reliable;
+	src: url(../fonts/Reliable.otf);
 }
 
 @font-face{
@@ -56,7 +56,7 @@ img{
 	padding: 0px;
 	text-align: center;
 	background-color: #353532;
-	font-family: 'Tail';
+	font-family: 'Reliable';
 	font-size: 80px;
 }
 
@@ -75,7 +75,7 @@ a:visited{
 
 #nav{
 	font-family: 'Economica';
-	font-size: 16.5px;
+	font-size: 17px;
 }
 
 .nav ul {
@@ -89,7 +89,7 @@ a:visited{
 
 .nav li {
 	font-family: 'Economica';
-	font-size: 16.5px;
+	font-size: 17px;
 	color: #FFFFFF;
 }
 
@@ -198,14 +198,14 @@ img {
 }
 
 #fragment-1{
-	font-size: 13px;
+	font-size: 15px;
 	font-family: 'Economica';
 	color: #FFFFFF;
 }
 
 #fragment-2{
 	padding-top: 30px;
-	font-size: 13px;
+	font-size: 15px;
 	font-family: 'Economica';
 	color: #FFFFFF;
 }
@@ -224,7 +224,7 @@ img {
 	border: 0px;
 	text-align: left;
 	list-style-type: decimal;
-	font-size: 13px;
+	font-size: 15px;
 	font-family: 'Economica';
 	color: #FFFFFF;
 }
