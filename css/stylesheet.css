@@ -196,6 +196,47 @@ img {
     color: #edce23; 
 }
 
+#tabs a{
+	
+	font-size: 16px;
+	font-family: 'Ec';
+}
+
+#tabs-2 { 
+    background: transparent; 
+    border: none; 
+} 
+
+#tabs-2 .ui-widget-header { 
+    background: transparent; 
+    border: none; 
+    border-bottom: 2px solid #edce23; 
+    border-radius: 0px; 
+} 
+
+#tabs-2 .ui-tabs-nav .ui-state-default { 
+    background: transparent; 
+    border: none; 
+} 
+
+#tabs-2 .ui-tabs-nav .ui-state-active { 
+    background: transparent url(../img/uiTabsArrow2.png) no-repeat bottom center; 
+    border: none; 
+} 
+
+#tabs-2 .ui-tabs-nav .ui-state-default a { 
+    color: #FFFFFF; 
+} 
+
+#tabs-2 .ui-tabs-nav .ui-state-active a { 
+    color: #edce23; 
+}
+
+#tabs-2 a{
+	font-size: 16px;
+	font-family: 'Ec';
+}
+
 #fragment-1{
 	font-size: 16px;
 	font-family: 'Ec';
@@ -232,12 +273,59 @@ img {
 	font-family: 'Ec';
 }
 
+#fragment-2b{
+	font-size: 16px;
+	font-family: 'Ec';
+	color: #FFFFFF;
+}
+
+#fragment-3b{
+	font-size: 16px;
+	font-family: 'Ec';
+	color: #FFFFFF;
+}
+
+#fragment-4{
+	font-size: 16px;
+	font-family: 'Ec';
+	color: #FFFFFF;
+}
+
+#fragment-1 a{
+	font-size: 16px;
+	font-family: 'Ec';
+	color: #edce23;
+}
+
+#fragment-2b a{
+	font-size: 16px;
+	font-family: 'Ec';
+	color: #edce23;
+}
+
+#fragment-3b a{
+	font-size: 16px;
+	font-family: 'Ec';
+	color: #edce23;
+}
+
+#fragment-4 a{
+	font-size: 16px;
+	font-family: 'Ec';
+	color: #edce23;
+}
 #fragment-3 li{
 	color: #edce23;
 }
 #fragment-3 li span{
 	color: #FFFFFF;
 }
+
+summary{
+	font-size: 24px;
+	font-family: 'Ec';
+}
+
 #footer{
 	clear: both;
 }
