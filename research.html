@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jasmine Jalayajay Nguyen">
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="css\stylesheet.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <title>Jasmine Nguyen's Portfolio</title>
+</head>
+<div id="pagewrap">
+    <header>
+        <div id="header">jasmine nguyen
+        </div>
+    </header>
+
+    <body>
+        <main>
+            <div id="container">
+                <div class="nav">
+                    <ul>
+                        <li class="home"><a href="index.html"><strong>HOME</strong></a></li>
+                        <li class="about"><a href="resume.html"><strong>RESUME</strong></a></li>
+                        <li class="final"><a href="projects.html"><strong>PROJECTS</strong></a></li>
+						<li class="contact"><a href="contact.html"><strong>CONTACT</strong></a></li>
+                    </ul>
+                </div>
+                <div id="content">
+					<h1>ACCESSIBILITY RESEARCH</h1>
+					<span class ="spanstyle"><strong>October 2015 - March 2016</strong></span><br />
+					<em>Worked on accessibility research on the side under the Informatics PhD student Mark Baldwin.</em><br /><p></p>
+					<details open>
+                     <summary><strong>THE BEGINNING</strong></summary>
+					<strong>The Problem</strong>: <em>Individuals, who use a screen reader, tend to have difficulties using their system to effectively go through a web page.<br />
+					A lot of screen readers tend to read unnecessary content that no one is interested in.<br />
+					Individuals, that don't use a screen reader, tend to see what they want and they'll click it or type what they want into the search bar.<br />
+					Individuals, that use a screen reader, don't have the same privilege.</em><br />
+					This is important because, according to a 2015 article on webaim.org, 2307 respondents out of 2478 (over 93.1%) use a screen reader due to a disability.<br />
+					When asked if web content has become more accessible, 38.7% said it has, 37.7% said it hasn't, and 23.6% said it's become less accessible.<br />
+					Since it would be difficult to convince businesses to create more accessible web content, we need an efficient way to get the general populace to understand web accessibility.<br />
+					<p></p>
+					 It all started with Mark's discussion on accessibility. He began the focus on accessibility in technology with Twitter to start with. <br />
+					 I looked for sentiment using the tweet #GAAD. <br />
+					 Originally, we were focused on using R to find all of the tweets; however, "TwitteR" only offered tweets from the past few days. <br />
+					With that, I looked through the entirety of Twitter to find tweets made on Global Accessibility Awareness Day. <br />
+					Overall, people liked what GAAD stood for; however, others didn't know what it was.<br />
+					<p></p>
+					After checking through Twitter, I looked at other websites that focused on GAAD.<br />
+					I looked through Stack websites, Reddit, Imgur, Tumblr, Facebook, blogs, and articles made on different news sites.<br />
+					Many websites didn't offer information on "GAAD". Instead, I found pictures and articles that did not contain actual sentiment from the user.<br />
+					Once we hit a dead end with #GAAD, we used those websites to focus on developers in accessibility. <br />
+					</details>
+					<p></p>
+					<details>
+                     <summary><strong>SPREADSHEETS</strong></summary>
+					 I compiled a list of all the research data into a spreadsheet.<br />
+					<strong><a href="https://docs.google.com/a/uci.edu/spreadsheets/d/1xpieaI-eeBB75YnjCAQpY02dOaIsZ05gzmXxLo4x4pM/edit?usp=sharing">Accessibility Spreadsheets</a></strong><br />
+					 I included a list of 62 startup companies and the amount of errors, alerts, features, structural elements, HTML 5 and ARIA, and contrast errors that their websites have.<br />
+					 <p></p><img src="img\projects\research\startups.png" alt="Competitive Analysis" class ="imgsize"><br /><p></p>
+					 On the side, I looked at Stack Overflow, people's blogs, Reddit, and ACM.<br />
+					 With that, I mentioned their relevance to accessibility and gave a quick summary.<br />
+					 I also included conversations from Hacker News that focused specifically on the topics and keywords of accessibility.<br />
+					 I searched for terms like: <em>accessibility, a11y, 508, WAI, compliance, assistive technology, web accessibility, disability,<br />
+					 blind developer, GAAD, visually impaired, global accessibility, and awareness.</em> <br />
+					 <p></p><img src="img\projects\research\hackernews.png" alt="Competitive Analysis" class ="imgsize"><br />		<p></p>			 
+					 At the time, I was still trying to understand the role of accessibility in software development.<br />
+					 The goal was to uncover a problem that was not yet talked about and address it. <br />
+					 <p></p>
+					 There were a few themes I was looking for: <br />
+					 <strong>1. How does accessibility factor into startup MVP's.<br />
+					 2. How are accessibility rules being misused or not used.<br />
+					 3. How has accessibility been implemented.<br />
+					 4. Mobile accessibility.</strong><br />
+					 <p></p>
+					 Through those themes, I focused on startup companies and how accessibility differs compared to established companies.<br />
+					 Overall, we evaluated 40-50 startup companies and pulled their data from CrunchBase.<br />
+					 2-5 companies were selected from that list and I evaluated their accessibility using WebAim.<br />
+					 </details><p></p>
+					 <details>
+                     <summary><strong>COMPARATIVE ANALYSIS</strong></summary>
+					 Then, I created a comparative analysis chart that showed the comparison of startup companies to the competing established companies.<br /><p></p>
+					 <img src="img\projects\research\competitiveanalysis.png" alt="Competitive Analysis" class ="imgsize"><br /><p></p>
+					 I compared online educational sites, media sites, radio stations, news sites, food sites, and merchandise sites.<br />
+					For the most part, the startup company will contain more accessibility errors than the established company.<br />
+					However, there were a few surprises with the established site being less accessible than the startup site.<br />
+					It was rare, but it was interesting to see.<br />
+					 </details>
+					 <p></p>
+					 <details>
+					 <summary><strong>THE APPLICATION</strong></summary>
+					 Afterward, I compared 13 plugins and extensions that were similar to what we wanted to create: a plugin that helps with accessibility.<br /><p></p>
+					 Our idea was to have a visually sighted person and a screen-reader person download the same plugin, and it would focus on crowdsourcing.<br />
+					 The plugin on the visually sighted side would collect all the user's clicks when it's on.<br />
+					 The plugin would have an algorithm that distinguished where most users clicked first.<br />
+					 On the screen-reader side, the plugin would first say the links that are the most clicked.<br />
+					 Subsequently, I created 15 interview questions that we were going to ask users when we completed the plugin. <br />
+					 <p></p>
+					 A couple questions were:<br />
+					 <strong>1. What are your thoughts on this system?<br />
+					 2. Do you give permission for it to collect all your "clicks" and sites you visit?</strong><br />
+					 <p></p>
+					 We were afraid that people didn't want to download the plugin due to security reasons; however, we still believed it would be for the greater good.<br />
+					 We then completed around 30 paper prototypes of the design that varied from how the plugin would act when it was in incognito mode to how it would visually look.<br />
+					 Afterward, I then created 4 storyboards to showcase how the application would be used.<br /><p></p>
+					 <img src="img\projects\research\storyboard1.png" alt="Storyboard #1" class ="imgsize"><br />		
+					 <img src="img\projects\research\storyboard2.png" alt="Storyboard #2" class ="imgsize"><br />	
+					 <img src="img\projects\research\storyboard3.png" alt="Storyboard #3" class ="imgsize"><br />	
+					 <img src="img\projects\research\storyboard4.png" alt="Storyboard #4" class ="imgsize"><br />		
+						</details>
+						<p></p>
+						<details>
+					 <summary><strong>THE END</strong></summary>						
+					 After being done with the competitive analysis chart, I ended up finding an app that was almost identical to what we wanted to create.<br />
+					<em> The Blank App by Code the Dream.</em><br />
+					 We were extremely happy to see that an app has been created that served almost the same purpose.<p></p>
+					 The topic was very interesting, and I wonder why accessibility isn't more of a priority for startup companies.<br />
+					 If I was still working on this research, I would focus on one more thing: <br />
+					 <em>If compliance is still a problem, could we rely on other tools to make up for the lack of compliance?</em><br/ >
+					</details>				
+                </div>
+                <div id="footer">
+					<p class="footerstyle">
+						© Jasmine Nguyen. 2016. All rights reserved.
+					</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</div>
+
+</html>
