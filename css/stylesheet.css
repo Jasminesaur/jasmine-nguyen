@@ -18,6 +18,16 @@ body{
 	color: #FFFFFF;
 }
 
+.parent {
+  overflow: auto;
+}
+
+
+.parent>div {
+  float: left;
+  width: 33%;
+}
+
 @font-face{
 	font-family: Brush;
 	src: url(../fonts/Brushstrike.ttf);
@@ -45,7 +55,7 @@ img{
 }
 
 #pagewrap{
-	width: 660px;
+	width: 900px;
 	margin: 0 auto;
 }
 
@@ -114,6 +124,9 @@ a:visited{
 		display: inline-block;
 		margin-right: -4px;
   }
+  #content{
+	  width: auto;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -148,6 +161,9 @@ a:visited{
 		font-size: 90%;
 		padding: 10px 8px;
 	}
+	#content{
+		width: auto;
+	}
 }
 
 img {
@@ -156,7 +172,19 @@ img {
 	width: auto\9; 
 }
 
+.border{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.border:hover{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	filter: grayscale(50%);
+}
+
 #content {
+	width: auto;
 	padding: 10px;
 }
 
@@ -273,6 +301,24 @@ img {
 	font-family: 'Ec';
 }
 
+#fragment-6{
+	display: inline-block;
+	border: 0px;
+	text-align: left;
+	list-style-type: decimal;
+	font-size: 16px;
+	font-family: 'Ec';
+}
+
+#fragment-5{
+	display: inline-block;
+	border: 0px;
+	text-align: left;
+	list-style-type: decimal;
+	font-size: 16px;
+	font-family: 'Ec';
+}
+
 #fragment-2b{
 	font-size: 16px;
 	font-family: 'Ec';
@@ -317,6 +363,14 @@ img {
 #fragment-3 li{
 	color: #edce23;
 }
+
+#fragment-6 li{
+	color: #edce23;
+}
+#fragment-6 li span{
+	color: #FFFFFF;
+}
+
 #fragment-3 li span{
 	color: #FFFFFF;
 }
