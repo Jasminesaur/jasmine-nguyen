@@ -308,6 +308,14 @@ img {
 	list-style-type: decimal;
 	font-size: 16px;
 	font-family: 'Ec';
+	color: #FFFFFF;
+}
+
+#fragment-6 ul{
+	list-style-type: disc;
+	font-size: 16px;
+	font-family: 'Ec';
+	color: #edce23;
 }
 
 #fragment-5{
@@ -317,6 +325,7 @@ img {
 	list-style-type: decimal;
 	font-size: 16px;
 	font-family: 'Ec';
+
 }
 
 #fragment-2b{
@@ -363,6 +372,7 @@ img {
 #fragment-3 li{
 	color: #edce23;
 }
+
 
 #fragment-6 li{
 	color: #edce23;
