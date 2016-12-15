@@ -276,6 +276,8 @@ img {
 	font-size: 16px;
 	font-family: 'Ec';
 	color: #FFFFFF;
+	text-align: left;
+	display: inline-block;
 }
 
 #fragment-2 li
