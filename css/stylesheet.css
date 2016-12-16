@@ -115,57 +115,6 @@ a:visited{
 .nav a.active {
 	background-color: #edce23;
 }
-
-@media screen and (min-width: 600px) {
-  .nav li {
-		width: 120px;
-		border-bottom: none;
-		font-size: 16px;
-		display: inline-block;
-		margin-right: -4px;
-  }
-  #content{
-	  width: auto;
-  }
-}
-
-@media screen and (max-width: 980px) {
-
-	#pagewrap {
-		width: auto;
-	}
-
-	#content {
-		width: auto;
-		padding: 3% 4%;
-	}
-
-}
-
-@media screen and (max-width: 650px) {
-
-	#header {
-		height: auto;
-	}
-
-	#content {
-		width: auto;
-		float: none;
-		margin: 20px 0;
-	}
-
-}
-@media screen and (max-width: 480px) {
-
-	#main-nav a {
-		font-size: 90%;
-		padding: 10px 8px;
-	}
-	#content{
-		width: auto;
-	}
-}
-
 img {
 	max-width: 100%;
 	height: auto;
@@ -188,11 +137,6 @@ img {
 	padding: 10px;
 }
 
-#tabs a{
-	
-	font-size: 16px;
-	font-family: 'Ec';
-}
 
 #tabs { 
     background: transparent; 
@@ -225,6 +169,42 @@ img {
 }
 
 #tabs a{
+	
+	font-size: 16px;
+	font-family: 'Ec';
+}
+
+#tabs-3 { 
+    background: transparent; 
+    border: none; 
+} 
+
+#tabs-3 .ui-widget-header { 
+    background: transparent; 
+    border: none; 
+    border-bottom: 2px solid #edce23; 
+    border-radius: 0px; 
+} 
+
+#tabs-3 .ui-tabs-nav .ui-state-default { 
+    background: transparent; 
+    border: none; 
+} 
+
+#tabs-3 .ui-tabs-nav .ui-state-active { 
+    background: transparent url(../img/uiTabsArrow2.png) no-repeat bottom center; 
+    border: none; 
+} 
+
+#tabs-3 .ui-tabs-nav .ui-state-default a { 
+    color: #FFFFFF; 
+} 
+
+#tabs-3 .ui-tabs-nav .ui-state-active a { 
+    color: #edce23; 
+}
+
+#tabs-3 a{
 	
 	font-size: 16px;
 	font-family: 'Ec';
@@ -391,6 +371,141 @@ summary{
 	font-size: 24px;
 	font-family: 'Ec';
 }
+
+@media screen and (min-width: 600px) {
+  .nav li {
+		width: 120px;
+		border-bottom: none;
+		font-size: 16px;
+		display: inline-block;
+		margin-right: -4px;
+  }
+  #content{
+	  width: auto;
+  }
+}
+
+@media screen and (max-width: 980px) {
+	#tabs-3 a{
+		font-size:90%;
+	}
+	#pagewrap {
+		width: auto;
+	}
+
+	#content {
+		width: auto;
+		padding: 3% 4%;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+	#header {
+		height: auto;
+	}
+
+	#content {
+		width: auto;
+		float: none;
+		margin: 20px 0;
+	}
+	.parent>div {
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 480px) {
+	#tabs a{
+	font-size: 12px;
+	}
+	#tabs-2 a{
+	font-size:67%;
+	}
+	#tabs-3 a{
+		font-size:39.5%;
+	}
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+	#content{
+		width: auto;
+	}
+	.parent>div {
+		width: 100%;
+	}
+
+}
+@media screen and (min-device-width : 374px) and (max-device-width: 375px) {
+	#tabs a{
+	font-size: 12px;
+	}
+	#tabs-2 a{
+	font-size:58%;
+	}
+	#tabs-3 a{
+		font-size:34.5%;
+	}
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+	#content{
+		width: auto;
+	}
+	.parent>div {
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 360px) {
+	#tabs a{
+	font-size: 12px;
+	}
+	#tabs-2 a{
+	font-size:54.5%;
+	}
+	#tabs-3 a{
+		font-size:32.5%;
+	}
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+	#content{
+		width: auto;
+	}
+	.parent>div {
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 320px) {
+	#tabs a{
+	font-size: 56%;
+	}
+	#tabs-2 a{
+	font-size: 45%;
+	}
+	#tabs-3 a{
+		font-size:26.5%;
+	}
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+	#content{
+		width: auto;
+	}
+	.parent>div {
+		width: 100%;
+	}
+
+}
+
 
 #footer{
 	clear: both;
