@@ -387,7 +387,7 @@ summary{
 
 @media screen and (max-width: 980px) {
 	#tabs-3 a{
-		font-size:90%;
+		font-size:75%;
 	}
 	#pagewrap {
 		width: auto;
@@ -401,6 +401,12 @@ summary{
 }
 
 @media screen and (max-width: 650px) {
+	#tabs-2 a{
+	font-size:80%;
+	}
+	#tabs-3 a{
+		font-size:50%;
+	}
 	#header {
 		height: auto;
 	}
@@ -415,7 +421,7 @@ summary{
 	}
 
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-device-width: 401px) and (max-device-width: 480px) {
 	#tabs a{
 	font-size: 12px;
 	}
@@ -437,7 +443,7 @@ summary{
 	}
 
 }
-@media screen and (min-device-width : 374px) and (max-device-width: 375px) {
+@media screen and (min-device-width : 361px) and (max-device-width: 400px) {
 	#tabs a{
 	font-size: 12px;
 	}
@@ -445,7 +451,7 @@ summary{
 	font-size:58%;
 	}
 	#tabs-3 a{
-		font-size:34.5%;
+		font-size:32%;
 	}
 	#main-nav a {
 		font-size: 90%;
@@ -459,7 +465,7 @@ summary{
 	}
 
 }
-@media screen and (max-width: 360px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 360px) {
 	#tabs a{
 	font-size: 12px;
 	}
