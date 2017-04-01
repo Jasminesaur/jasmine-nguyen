@@ -57,6 +57,7 @@ img{
 h1{
 	text-align: center;
 	}
+	
 
 #pagewrap{
 	width: 900px;
@@ -80,10 +81,12 @@ h1{
 
 a:link{
 	color: #edce23;
+	display: inline;
 }
 
 a:visited{
 	color: #edce23;
+	display: inline;
 }
 
 #nav{
@@ -107,13 +110,13 @@ a:visited{
 }
 
 .nav a {
-	display: block;
+	display: inline;
 	text-decoration: none;
 	color: #FFFFFF;
 }
 
 .nav a:hover {
-	background-color: #edce23;
+	background-color: #FFFFFF;
 }
 
 .nav a.active {
